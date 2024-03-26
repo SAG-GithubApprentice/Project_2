@@ -1,8 +1,8 @@
-# Tech Stock Performance Prediction Project (AMD, Intel, & Nvidia)
+# Tech Stock Performance Prediction Project
 
 ## Overview
 
-This project is designed to predict the future performance of tech giants: Intel, Nvidia, and AMD using machine learning (ML). By analyzing historical stock data, we aim to develop a model that can accurately forecast stock prices, providing valuable insights for investors and enthusiasts interested in the technology sector.
+This project aims to predict the future performance of key semiconductor stocks - AMD, Intel, and Nvidia - and compare these predictions against the performance of the semiconductor ETF, SOXX. Our team, consisting of Sergio Garzon, Chris Alvarez, and Todd Snyder, leverages machine learning and feature extraction techniques to provide accurate forecasts and insightful analysis within a condensed timeframe. This endeavor is supported by edX Boot Camps LLC as our educational partner.
 
 ## Table of Contents
 
@@ -14,90 +14,78 @@ This project is designed to predict the future performance of tech giants: Intel
 - [Usage](#usage)
 - [Visualizations](#visualizations)
 - [Contributing](#contributing)
+- [Authors](#authors)
 - [License](#license)
 
 ## Installation
-
-To get started with this project, you'll need to set up your environment first.
 
 ### Prerequisites
 
 - Python 3.6 or higher
 - Pip
-- GitHub Copilot
-- ChatGPT
+- An environment that supports Jupyter Notebooks (e.g., JupyterLab, VSCode)
 
-## The following Python libraries are required:
+### Required Python Libraries
 
-pandas: for data manipulation and analysis.
-
-hvplot: for creating interactive plots.
-
-prophet: for time series forecasting.
-
-yfinance: for downloading historical market data.
+- `pandas`: For data manipulation and analysis.
+- `hvplot`: For creating interactive plots.
+- `prophet`: For time series forecasting.
+- `yfinance`: For downloading historical market data.
 
 ### Setup
 
-This section describes the structure of the project and how to navigate it.
+1. Clone the project repository:
+2. Navigate to the project directory:
+3. Install the required Python packages:
 
-- `data/`: Contains raw and processed datasets.
-- `models/`: Saved models.
-- `notebooks/`: Jupyter notebooks for exploratory data analysis and model training.
-- `src/`: Source code for the project.
-- `visualizations/`: Graphs and plots generated from the data.
+## Project Setup
+
+This section details the project's structure and navigation.
+
+- `data/`: Contains the raw and processed datasets for AMD, Intel, Nvidia, and SOXX.
+- `models/`: Houses the trained machine learning models.
+- `notebooks/`: Jupyter notebooks for exploratory data analysis, model training, and evaluation.
+- `src/`: Source code for data collection, preprocessing, and model evaluation.
+- `visualizations/`: Generated graphs and plots illustrating stock trends and model predictions.
 
 ## Data Collection
 
-We use historical stock price data for Intel, Nvidia, and AMD, sourced from financial data providers through API requests. The dataset comprises over 1,000 records for each company to ensure comprehensive analysis.
+Historical stock price data for Intel, Nvidia, and AMD, alongside the SOXX ETF, were sourced through API requests using `yfinance`. The dataset includes over 1,000 records for each entity, ensuring a comprehensive analysis.
 
 ## Technologies Used
 
-- **Python**: The primary programming language.
-- **Pandas**: For data manipulation and cleaning.
-- **Matplotlib/Pandas Plotting**: For generating visualizations.
-- **Scikit-learn**: For implementing machine learning models.
-- **API Requests**: To fetch historical stock data.
+- **Python**: Serves as the primary programming language.
+- **Pandas**: Utilized for data manipulation and cleaning.
+- **Matplotlib/Pandas Plotting**: Employed for generating data visualizations.
+- **Scikit-learn**: Applied for implementing and evaluating machine learning models.
+- **API Requests (`yfinance`)**: Used to fetch historical stock data.
 
 ## Model Development
 
-The project employs supervised machine learning models to predict stock prices, focusing on techniques suitable for time series data. We explore various models, evaluate their performance, and fine-tune them for optimal results.
+The project employs supervised machine learning models, focusing on time series forecasting techniques suitable for predicting stock prices. Models explored include linear regression, decision trees, random forests, and LSTM networks, with evaluations based on metrics such as MAE, RMSE, and R-squared.
 
 ## Usage
 
-Step 1: Fetch Historical Data
-Use yfinance to download historical data for Intel, AMD, and Nvidia
-
-Step 2: Data Preprocessing
-Read the downloaded data into pandas DataFrames, ensuring proper datetime formatting for time series analysis.
-
-Step 3: Visualization
-Visualize the historical data using hvplot to generate interactive charts, aiding in the exploration of trends and patterns.
-
-Step 4: Forecasting
-Employ the Prophet library to forecast future market prices. Adjust the model parameters as necessary to improve forecast accuracy.
+A step-by-step guide to running the project, from fetching historical data to forecasting future prices using `prophet`, is documented within the `notebooks/` directory.
 
 ## Visualizations
 
-We include visualizations of stock trends, model accuracy, and predictions in the `visualizations/` folder. These charts and graphs are key to understanding the data and the model's performance.
+The `visualizations/` folder includes interactive charts and graphs that elucidate stock trends, model accuracy, and predictions, providing a visual representation of our analysis and findings.
 
 ## Contributing
 
-This project benefits from the contributions of:
-
-edX Boot Camps LLC - Educational partner providing guidance and resources.
+We welcome contributions! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 ## Authors
 
-Sergio Garzon
+- Sergio Garzon
+- Chris Alvarez
+- Todd Snyder
 
-Chris Alvarez
-
-Todd Snyder
+Supported by edX Boot Camps LLC.
 
 ## License
 
-This project is not licensed and is available for educational and non-commercial use only.
-
+This project is available for educational and non-commercial use only. It is not licensed for other purposes.
 
 
