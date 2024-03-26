@@ -22,9 +22,20 @@ To get started with this project, you'll need to set up your environment first.
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.6 or higher
 - Pip
-- Visual Studio Code
+- GitHub Copilot
+- ChatGPT
+
+## The following Python libraries are required:
+
+pandas: for data manipulation and analysis.
+
+hvplot: for creating interactive plots.
+
+prophet: for time series forecasting.
+
+yfinance: for downloading historical market data.
 
 ### Setup
 
@@ -54,7 +65,17 @@ The project employs supervised machine learning models to predict stock prices, 
 
 ## Usage
 
-Instructions on running the project, from data preprocessing, model training, to evaluation, are detailed within the Jupyter notebooks in the `notebooks/` directory.
+Step 1: Fetch Historical Data
+Use yfinance to download historical data for Intel, AMD, and Nvidia
+
+Step 2: Data Preprocessing
+Read the downloaded data into pandas DataFrames, ensuring proper datetime formatting for time series analysis.
+
+Step 3: Visualization
+Visualize the historical data using hvplot to generate interactive charts, aiding in the exploration of trends and patterns.
+
+Step 4: Forecasting
+Employ the Prophet library to forecast future market prices. Adjust the model parameters as necessary to improve forecast accuracy.
 
 ## Visualizations
 
@@ -62,11 +83,21 @@ We include visualizations of stock trends, model accuracy, and predictions in th
 
 ## Contributing
 
+This project benefits from the contributions of:
+
+edX Boot Camps LLC - Educational partner providing guidance and resources.
+
+## Authors
+
 Sergio Garzon
+
 Chris Alvarez
+
 Todd Snyder
 
 ## License
 
-This project is open-source and is not licensed
+This project is not licensed and is available for educational and non-commercial use only.
+
+
 
