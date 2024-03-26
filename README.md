@@ -1,4 +1,4 @@
-# Tech Stock Performance Prediction Project
+# Tech Stock Performance Prediction Project (AMD, Intel, & Nvidia)
 
 ## Overview
 
