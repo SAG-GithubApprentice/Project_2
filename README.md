@@ -24,6 +24,7 @@ To get started with this project, you'll need to set up your environment first.
 
 - Python 3.8+
 - Pip
+- Visual Studio Code
 
 ### Setup
 
