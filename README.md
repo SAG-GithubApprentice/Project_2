@@ -31,6 +31,8 @@ This project aims to predict the future performance of key semiconductor stocks 
 - `hvplot`: For creating interactive plots.
 - `prophet`: For time series forecasting.
 - `yfinance`: For downloading historical market data.
+- `matplotlib.pyplot`: For creating visualizations, graphs, and charts.
+- `datetime`: For dtae and time manipulation.
 
 ### Setup
 
@@ -43,7 +45,7 @@ This project aims to predict the future performance of key semiconductor stocks 
 This section details the project's structure and navigation.
 
 - `data/`: Contains the raw and processed datasets for AMD, Intel, Nvidia, and SOXX.
-- `models/`: Houses the trained machine learning models.
+- `Prophet_Predictions/`: Houses the trained machine learning models.
 - `notebooks/`: Jupyter notebooks for exploratory data analysis, model training, and evaluation.
 - `src/`: Source code for data collection, preprocessing, and model evaluation.
 - `visualizations/`: Generated graphs and plots illustrating stock trends and model predictions.
