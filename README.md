@@ -2,27 +2,12 @@
 
 ## Overview
 
-This project aims to predict the future performance of key semiconductor stocks - AMD, Intel, and Nvidia - and compare these predictions against the performance of the semiconductor ETF, SOXX. Our team, consisting of Sergio Garzon, Chris Alvarez, and Todd Snyder, leverages machine learning and feature extraction techniques to provide accurate forecasts and insightful analysis within a condensed timeframe. This endeavor is supported by edX Boot Camps LLC as our educational partner.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Project Setup](#project-setup)
-- [Data Collection](#data-collection)
-- [Technologies Used](#technologies-used)
-- [Model Development](#model-development)
-- [Usage](#usage)
-- [Visualizations](#visualizations)
-- [Contributing](#contributing)
-- [Authors](#authors)
-- [License](#license)
-
-## Installation
+The Tech Stock Performance Prediction Project is at the forefront of financial technology, applying advanced machine learning techniques to forecast the performance of key semiconductor stocks: AMD, Intel, and Nvidia. By comparing these forecasts with the performance of the semiconductor ETF, SOXX, we aim to uncover actionable insights into the semiconductor industry's future trends. This project, spearheaded by Sergio Garzon, Chris Alvarez, and Todd Snyder, combines in-depth feature extraction with state-of-the-art predictive models within a compressed timeline, supported by edX and IBM's digital learning platforms.
 
 ### Prerequisites
 
-- Python 3.6 or higher
-- Pip
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
 - An environment that supports Jupyter Notebooks (e.g., JupyterLab, VSCode)
 
 ### Required Python Libraries
@@ -36,6 +21,36 @@ This project aims to predict the future performance of key semiconductor stocks 
 - `numpy`: for numerical computing.
 - `prophet`: for time series forecasting.
 
+## Installation
+
+
+  \`\`\`
+
+Install the required dependencies:
+
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`Clone the repository and navigate into it:
+
+\`\`\`bash
+git clone <repository-url>
+cd <repository-name>
+\`\`\`
+
+Create and activate a virtual environment:
+
+- **Unix/macOS**:
+
+  \`\`\`bash
+  python3 -m venv env
+  source env/bin/activate
+  \`\`\`
+
+- **Windows**:
+
+  \`\`\`bash
+  python -m venv env
+  .\env\Scripts\activate
 
 ### Setup
 
@@ -71,23 +86,35 @@ The project employs supervised machine learning models, focusing on time series 
 
 ## Usage
 
-A step-by-step guide to running the project, from fetching historical data to forecasting future prices using `prophet`, is documented within the `notebooks/` directory.
+To run the project, follow these steps:
+
+1. Launch Jupyter Notebook:
+
+\`\`\`bash
+jupyter notebook
+\`\`\`
+
+2. Navigate to the project directory and open the main notebook.
+
+3. Run the notebook cells sequentially to perform the analysis and view the predictions.
+
 
 ## Visualizations
 
 The `visualizations/` folder includes interactive charts and graphs that elucidate stock trends, model accuracy, and predictions, providing a visual representation of our analysis and findings.
 
-## Contributing
+## Contributions
 
-We welcome contributions! If you have suggestions or improvements, please fork the repository and submit a pull request.
+- edX Boot Camps LLC.
+- Copilot
+- ChatGPT
+- We welcome contributions! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 ## Authors
 
 - Sergio Garzon
 - Chris Alvarez
 - Todd Snyder
-
-Supported by edX Boot Camps LLC.
 
 ## License
 
