@@ -55,16 +55,6 @@ Create and activate a virtual environment:
 2. Navigate to the project directory:
 3. Install the required Python packages:
 
-## Project Setup
-
-This section details the project's structure and navigation.
-
-- `data/`: Contains the raw and processed datasets for AMD, Intel, Nvidia, and SOXX.
-- `Prophet_Predictions/`: Houses the trained machine learning models.
-- `notebooks/`: Jupyter notebooks for exploratory data analysis, model training, and evaluation.
-- `src/`: Source code for data collection, preprocessing, and model evaluation.
-- `visualizations/`: Generated graphs and plots illustrating stock trends and model predictions.
-
 ## Data Collection
 
 Historical stock price data for Intel, Nvidia, and AMD, alongside the SOXX ETF, were sourced through API requests using `yfinance`. The dataset includes over 1,000 records for each entity, ensuring a comprehensive analysis.
