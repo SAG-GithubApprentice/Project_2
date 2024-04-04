@@ -27,12 +27,15 @@ This project aims to predict the future performance of key semiconductor stocks 
 
 ### Required Python Libraries
 
-- `pandas`: For data manipulation and analysis.
-- `hvplot`: For creating interactive plots.
-- `prophet`: For time series forecasting.
-- `yfinance`: For downloading historical market data.
-- `matplotlib.pyplot`: For creating visualizations, graphs, and charts.
-- `datetime`: For dtae and time manipulation.
+- `pandas`: for data manipulation and analysis.
+- `yfinance`: for fetching historical market data from Yahoo Finance.
+- `pandas_market_calendars`: for handling market calendars.
+- `matplotlib`: for plotting and visualization.
+- `tsfresh`: for extracting time series features.
+- `sklearn` (`sklearn.linear_model`, `sklearn.metrics`, `sklearn.ensemble`, `sklearn.model_selection`): for various machine learning tasks such as linear regression, random forest regression, model evaluation, and splitting datasets.
+- `numpy`: for numerical computing.
+- `prophet`: for time series forecasting.
+
 
 ### Setup
 
