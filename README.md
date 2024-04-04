@@ -84,17 +84,13 @@ Model evaluation is based on industry-standard metrics, including Mean Absolute 
 
 ## Usage
 
-To run the project, follow these steps:
+To reproduce the analysis and predictions, follow these steps:
 
-1. Launch Jupyter Notebook:
-
-\`\`\`bash
-jupyter notebook
-\`\`\`
-
-2. Navigate to the project directory and open the main notebook.
-
-3. Run the notebook cells sequentially to analyze and view the predictions.
+1. Clone the repository and navigate to the project directory.
+2. Create and activate a virtual environment (recommended for isolated dependencies).
+3. Install the required Python packages listed in the requirements.txt file.
+4. Launch Jupyter Notebook and open the main analysis notebook.
+5. Run the notebook cells sequentially to execute the data collection, preprocessing, feature engineering, model training, and prediction steps.
 
 
 ## Visualizations
