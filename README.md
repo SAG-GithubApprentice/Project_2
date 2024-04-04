@@ -140,6 +140,7 @@ https://www.canva.com/design/DAGBBX-OPKg/uRusxwQLk6WDPb-NisJX8g/edit?utm_content
 - edX Boot Camps LLC.
 - Copilot
 - ChatGPT
+- Perplexity Labs
 - We welcome contributions from the community to further enhance the project's capabilities and explore new avenues for stock performance prediction. Please submit pull requests or open issues on the project's GitHub repository
 
 ## Authors
