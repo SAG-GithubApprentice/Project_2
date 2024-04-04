@@ -135,6 +135,10 @@ The graphs elucidate stock trends, model accuracy, and predictions and visually 
 
 https://www.canva.com/design/DAGBBX-OPKg/uRusxwQLk6WDPb-NisJX8g/edit?utm_content=DAGBBX-OPKg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+## Python Script
+
+This Python script in the repository. (Portfolio_Pyscript.py) fetches historical stock data from Yahoo Finance via the yfinance library to forecast daily returns for a specified stock over the next 30 days. It includes preprocessing steps such as computing daily return percentages, generating lagged features, and calculating rolling statistics. The model, trained using 80% of the data, employs linear regression, followed by evaluation using R-squared, RMSE, and MAE metrics on the remaining 20%. The script then predicts daily returns for the upcoming 30 days based on the last 30 rows of available data, saves both metrics and predictions to separate files, and prints them for further analysis.
+
 ## Contributions
 
 - edX Boot Camps LLC.
