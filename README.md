@@ -23,9 +23,6 @@ The Tech Stock Performance Prediction Project is at the forefront of financial t
 
 ## Installation
 
-
-  \`\`\`
-
 Install the required dependencies:
 
 \`\`\`bash
