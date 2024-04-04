@@ -67,9 +67,20 @@ Historical stock price data for Intel, Nvidia, and AMD, alongside the SOXX ETF, 
 - **Scikit-learn**: Applied for implementing and evaluating machine learning models.
 - **API Requests (`yfinance`)**: Used to fetch historical stock data.
 
+## Feature Engineering
+
+To enhance the predictive power of our models, we employed the tsfresh library to extract relevant time series features from the raw data. These features capture intrinsic patterns and characteristics, enabling our models to learn and generalize more effectively.
+
 ## Model Development
 
 The project employs supervised machine learning models, focusing on time series forecasting techniques suitable for predicting stock prices. Models explored include linear regression, decision trees, random forests, and LSTM networks, with evaluations based on MAE, RMSE, and R-squared metrics.
+
+- **Linear Regression**: A baseline model for establishing performance benchmarks.
+- **Decision Trees**: Capable of capturing complex, non-linear relationships in the data.
+- **Random Forests**: Ensemble learning technique that combines multiple decision trees for improved accuracy and robustness.
+- **Long Short-Term Memory (LSTM) Networks**: Recurrent neural networks adept at modeling sequential data and capturing long-term dependencies.
+
+Model evaluation is based on industry-standard metrics, including Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared, ensuring a comprehensive assessment of predictive performance.
 
 ## Usage
 
@@ -107,13 +118,13 @@ https://www.canva.com/design/DAGBBX-OPKg/uRusxwQLk6WDPb-NisJX8g/edit?utm_content
 - edX Boot Camps LLC.
 - Copilot
 - ChatGPT
-- We welcome contributions! 
+- We welcome contributions from the community to further enhance the project's capabilities and explore new avenues for stock performance prediction. Please submit pull requests or open issues on the project's GitHub repository
 
 ## Authors
 
-- Sergio Garzon
-- Chris Alvarez
-- Todd Snyder
+- Sergio Garzon: Feature/data engineering, model evaluation, and visualization.
+- Chris Alvarez: Data engineering, model evaluation, and model development
+- Todd Snyder: Project lead, Data collection, preprocessing, and documentation
 
 ## License
 
