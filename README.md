@@ -4,13 +4,39 @@
 
 The Tech Stock Performance Prediction Project is at the forefront of financial technology, applying advanced machine learning techniques to forecast the performance of key semiconductor stocks: AMD, Intel, and Nvidia. By comparing these forecasts with the performance of the semiconductor ETF, SOXX, we aim to uncover actionable insights into the semiconductor industry's future trends and provide precise market forecasts. This project, spearheaded by Sergio Garzon, Chris Alvarez, and Todd Snyder, combines in-depth feature extraction with state-of-the-art predictive models within a compressed timeline supported by edX.
 
-### Prerequisites
+## Directory
+
+- .DS_Store
+- Portfolio_Predictions/.DS_Store
+- Portfolio_Predictions/Portfolio_PyScript.py
+- Portfolio_Predictions/Portfolio_X.ipynb
+- Portfolio_Predictions/Portfolio_XX.ipynb
+- Portfolio_Predictions/Portfolio_XXX.ipynb
+- Portfolio_Predictions/Portfolio_Y.ipynb
+- Portfolio_Predictions/Portfolio_Y_SOXX.ipynb
+- Prophet_Predictions/PROPHET_PORTFOLIO.csv
+- Prophet_Predictions/Portfolio_C.ipynb
+- Prophet_Predictions/SIMP+EXTRACT_RF.txt
+- Prophet_Predictions/SIMP_EXTRACT_LR.csv
+- Prophet_Predictions/SIMP_EXTRACT_LR.txt
+- Prophet_Predictions/SIMP_EXTRACT_RF.csv
+- Prophet_Predictions/TSFRESH_GB.csv
+- Prophet_Predictions/TSFRESH_RF.csv
+- Prophet_Predictions/TSFRESH_RF.txt
+- Prophet_Predictions/TSRESH_GB.txt
+- Prophet_Predictions/combined_SOXX_predictions_A.csv
+- Prophet_Predictions/combined_predictions_SOXX.csv
+- Prophet_Predictions/portfolio_daily_return_pct.jpeg
+- Prophet_Predictions/portfolio_unit_price.jpeg
+- README.md
+
+## Prerequisites
 
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
 - An environment that supports Jupyter Notebooks (e.g., JupyterLab, VSCode)
 
-### Required Python Libraries
+## Required Python Libraries
 
 - `pandas`: for data manipulation and analysis.
 - `yfinance`: for fetching historical market data from Yahoo Finance.
@@ -49,7 +75,7 @@ Create and activate a virtual environment:
   python -m venv env
   .\env\Scripts\activate
 
-### Setup
+## Setup
 
 1. Clone the project repository:
 2. Navigate to the project directory:
@@ -59,7 +85,7 @@ Create and activate a virtual environment:
 
 Historical stock price data for Intel, Nvidia, and AMD, alongside the SOXX ETF, were sourced through API requests using `yfinance`. The dataset includes over 1,000 records for each entity, ensuring a comprehensive analysis.
 
-## Technologies Used
+# Technologies Used
 
 - **Python**: Serves as the primary programming language.
 - **Pandas**: Utilized for data manipulation and cleaning.
