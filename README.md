@@ -90,6 +90,9 @@ jupyter notebook
 
 The `visualizations/` folder includes interactive charts and graphs that elucidate stock trends, model accuracy, and predictions, providing a visual representation of our analysis and findings.
 
+![image](https://github.com/SAG-GithubApprentice/Project_2/assets/151570128/bb7dc682-5ecc-4fa2-a8c0-9a56badfd8bf)
+
+
 ## Contributions
 
 - edX Boot Camps LLC.
