@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Tech Stock Performance Prediction Project is at the forefront of financial technology, applying advanced machine learning techniques to forecast the performance of key semiconductor stocks: AMD, Intel, and Nvidia. By comparing these forecasts with the performance of the semiconductor ETF, SOXX, we aim to uncover actionable insights into the semiconductor industry's future trends. This project, spearheaded by Sergio Garzon, Chris Alvarez, and Todd Snyder, combines in-depth feature extraction with state-of-the-art predictive models within a compressed timeline, supported by edX and IBM's digital learning platforms.
+The Tech Stock Performance Prediction Project is at the forefront of financial technology, applying advanced machine learning techniques to forecast the performance of key semiconductor stocks: AMD, Intel, and Nvidia. By comparing these forecasts with the performance of the semiconductor ETF, SOXX, we aim to uncover actionable insights into the semiconductor industry's future trends. This project, spearheaded by Sergio Garzon, Chris Alvarez, and Todd Snyder, combines in-depth feature extraction with state-of-the-art predictive models within a compressed timeline supported by edX.
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ Historical stock price data for Intel, Nvidia, and AMD, alongside the SOXX ETF, 
 
 ## Model Development
 
-The project employs supervised machine learning models, focusing on time series forecasting techniques suitable for predicting stock prices. Models explored include linear regression, decision trees, random forests, and LSTM networks, with evaluations based on metrics such as MAE, RMSE, and R-squared.
+The project employs supervised machine learning models, focusing on time series forecasting techniques suitable for predicting stock prices. Models explored include linear regression, decision trees, random forests, and LSTM networks, with evaluations based on MAE, RMSE, and R-squared metrics.
 
 ## Usage
 
@@ -83,12 +83,12 @@ jupyter notebook
 
 2. Navigate to the project directory and open the main notebook.
 
-3. Run the notebook cells sequentially to perform the analysis and view the predictions.
+3. Run the notebook cells sequentially to analyze and view the predictions.
 
 
 ## Visualizations
 
-The `visualizations/` folder includes interactive charts and graphs that elucidate stock trends, model accuracy, and predictions, providing a visual representation of our analysis and findings.
+The graphs elucidate stock trends, model accuracy, and predictions and visually represent our analysis and findings.
 
 ![image](https://github.com/SAG-GithubApprentice/Project_2/assets/151570128/bb7dc682-5ecc-4fa2-a8c0-9a56badfd8bf)
 
@@ -107,7 +107,7 @@ https://www.canva.com/design/DAGBBX-OPKg/uRusxwQLk6WDPb-NisJX8g/edit?utm_content
 - edX Boot Camps LLC.
 - Copilot
 - ChatGPT
-- We welcome contributions! If you have suggestions or improvements, please fork the repository and submit a pull request.
+- We welcome contributions! 
 
 ## Authors
 
