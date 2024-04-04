@@ -92,6 +92,15 @@ The `visualizations/` folder includes interactive charts and graphs that elucida
 
 ![image](https://github.com/SAG-GithubApprentice/Project_2/assets/151570128/bb7dc682-5ecc-4fa2-a8c0-9a56badfd8bf)
 
+![image](https://github.com/SAG-GithubApprentice/Project_2/assets/151570128/89020021-9854-434f-9454-b70f5b2c5087)
+
+![image](https://github.com/SAG-GithubApprentice/Project_2/assets/151570128/3be3ec8b-b9ef-4f95-972f-6b8091ba5a27)
+
+![image](https://github.com/SAG-GithubApprentice/Project_2/assets/151570128/cbfd8382-1570-4476-b247-48e8b8367866)
+
+## Presentation Slides
+
+https://www.canva.com/design/DAGBBX-OPKg/uRusxwQLk6WDPb-NisJX8g/edit?utm_content=DAGBBX-OPKg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Contributions
 
